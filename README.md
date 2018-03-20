@@ -12,13 +12,13 @@ https://tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php
 Why Python instead of PHP?
 ------
 Look at the image provided:
-![before_after_image](https://github.com/ScientificClubofESI/CuteFileBrowser-python/Preview/Speed_PHP_Python.png?raw=true "Before-After")
+![before_after_image](https://github.com/ScientificClubofESI/CuteFileBrowser-python/raw/master/Preview/Speed_PHP_Python.png?raw=true "Before-After")
 Better resolution is available in the "example" folder of this repo. It is not perfect example, it is the one done with the defaults,
 yet it can be made better by tweaking settings.
 
 How does it look like?
 ------
-![ui](https://github.com/ScientificClubofESI/CuteFileBrowser-python/Preview/CuteFileBrowser.jpg?raw=true "UI")
+![ui](https://github.com/ScientificClubofESI/CuteFileBrowser-python/raw/master/Preview/CuteFileBrowser.jpg "UI")
 How do i launch it?
 ------
 
