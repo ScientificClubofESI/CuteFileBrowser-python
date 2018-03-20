@@ -18,7 +18,7 @@ yet it can be made better by tweaking settings.
 
 How does it look like?
 ------
-![ui](https://github.com/ScientificClubofESI/CuteFileBrowser-python/Preview/CuteFileBrowser.jpg	?raw=true "UI")
+![ui](https://github.com/ScientificClubofESI/CuteFileBrowser-python/Preview/CuteFileBrowser.jpg?raw=true "UI")
 How do i launch it?
 ------
 
