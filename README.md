@@ -12,13 +12,13 @@ https://tutorialzine.com/2014/09/cute-file-browser-jquery-ajax-php
 Why Python instead of PHP?
 ------
 Look at the image provided:
-![before_after_image](https://github.com/delneg/noteshrinker-django/blob/master/example/before_after.jpg?raw=true "Before-After")
+![before_after_image](https://github.com/ScientificClubofESI/CuteFileBrowser-python/Preview/Speed_PHP_Python.png?raw=true "Before-After")
 Better resolution is available in the "example" folder of this repo. It is not perfect example, it is the one done with the defaults,
 yet it can be made better by tweaking settings.
 
 How does it look like?
 ------
-![ui](https://github.com/delneg/noteshrinker-django/blob/master/example/ui.jpg?raw=true "UI")
+![ui](https://github.com/ScientificClubofESI/CuteFileBrowser-python/Preview/CuteFileBrowser.jpg	?raw=true "UI")
 How do i launch it?
 ------
 
@@ -33,6 +33,16 @@ First of all, get python 3 & then get pip.
 ```http://127.0.0.1:5000/Program Files``` means ```C:\Program Files```
 7. Finally,  from the root directory of the project ```python folder.py```
 8. Open the index.html file
+
+Forcing files to download
+------
+Browsers open text files instead of downloading them. If you wish to force all files to download, place this .htaccess file in the files folder:
+```
+<Files *.*>
+ForceType application/octet-stream
+</Files>
+```
+It should be called .htaccess (with a leading dot). This file is only supported on Apache web servers.
 
 
 Improvements
