@@ -34,6 +34,20 @@ First of all, get python 3 & then get pip.
 7. Finally,  from the root directory of the project ```python folder.py```
 8. Open the index.html file
 
+
+Improvements
+------
+*Added the ability to call the script multiple times in the same page
+*Ignores hidden files and ```desktop.ini``` file
+*Can go throw protected folders 
+
+Future features
+------
+*PDF, JPG viewer
+*Fixing folder items number
+*Folder size
+*Downloading full folder
+
 License
 ------
 MIT
