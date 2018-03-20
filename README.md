@@ -37,16 +37,16 @@ First of all, get python 3 & then get pip.
 
 Improvements
 ------
-*Added the ability to call the script multiple times in the same page
-*Ignores hidden files and ```desktop.ini``` file
-*Can go throw protected folders 
+#Added the ability to call the script multiple times in the same page
+#Ignores hidden files and ```desktop.ini``` file
+#Can go throw protected folders 
 
 Future features
 ------
-*PDF, JPG viewer
-*Fixing folder items number
-*Folder size
-*Downloading full folder
+#PDF, JPG viewer
+#Fixing folder items number
+#Folder size
+#Downloading full folder
 
 License
 ------
