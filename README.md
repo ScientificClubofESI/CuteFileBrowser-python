@@ -30,8 +30,9 @@ First of all, get python 3 & then get pip.
 4. Then, clone this repo (attention! it will be cloned to the current directory, so make sure you do it in some kinda documents or special one) ```git clone https://github.com/ScientificClubofESI/CuteFileBrowser-python/ ```
 5. Then, ```cd CuteFileBrowser-python```
 6. Tweak the path inside the ```Assets/js/script.js``` in line :
-```http://127.0.0.1:5000/Program Files``` means ```C:\Program Files```
-7. Finally,  from the root directory of the project ```python folder.py```
+
+Note: ```http://127.0.0.1:5000/Program Files``` means ```C:\Program Files```
+7. Finally, ```python folder.py```
 8. Open the index.html file
 
 Forcing files to download
