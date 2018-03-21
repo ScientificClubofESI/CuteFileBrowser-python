@@ -1,19 +1,14 @@
 @charset "utf-8";
 
 
-/*-------------------------
-	Simple reset
---------------------------*/
-
+/*-------------------------	Simple reset--------------------------*/
 *{
 	margin:0;
 	padding:0;
 }
 
 
-/*-------------------------
-	Demo page
--------------------------*/
+/*-------------------------	Demo page-------------------------*/
 
 body {
 	background-color: #23232e;
@@ -70,11 +65,7 @@ body {
 	line-height: 20px;
 }
 
-
-/*-------------------------
-	Search box
--------------------------*/
-
+/*------------------------	Search box	-------------------------*/
 
 .filemanager .search {
 	position: absolute;
@@ -472,14 +463,9 @@ body {
 	border-bottom-color: #30837c;
 }
 
-
-
-
 /*----------------------------
-	The Demo Footer
+	 Footer
 -----------------------------*/
-
-
 footer {
 
 	width: 770px;
@@ -491,8 +477,8 @@ footer {
 	margin-left: -420px;
 
 	background-color:#1f1f1f;
-	background-image:linear-gradient(to bottom, #1f1f1f, #101010);
 
+	
 	border-radius:2px 2px 0 0;
 	box-shadow: 0 -1px 4px rgba(0,0,0,0.4);
 	z-index:1;
