@@ -33,7 +33,7 @@ def scan(path):
 
     return files
 
-
+ 
 
 @app.route('/<path>')
 def hello_world(path):
