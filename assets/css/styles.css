@@ -1,19 +1,60 @@
 @charset "utf-8";
 
 
-/*-------------------------	Simple reset--------------------------*/
+/*-------------------------
+	Simple reset
+--------------------------*/
+
 *{
 	margin:0;
 	padding:0;
 }
 
 
-/*-------------------------	Demo page-------------------------*/
+/*-------------------------
+	Demo page
+-------------------------*/
 
 body {
 	background-color: #23232e;
 	font: 14px normal Arial, Helvetica, sans-serif;
 	z-index: -4;
+	font: 11px/1.4em Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: #99CC00;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #E6E8ED;
+}
+h2 {
+	color: #99CC00;
+	margin: 15px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #E6E8ED;
+}
+p {
+	color: #99CC00;
+	margin: 15px 0px 5px;
+	padding: 0px 0px 3px;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+}
+li {
+	color: #99CC00;
+	margin: 15px 0px 5px;
+	padding: 0px 0px 3px;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #2D3954;
+	font-size: 11px;
+}
+a:hover {
+	color: #99CC00;
 }
 
 /*-------------------------
@@ -65,7 +106,11 @@ body {
 	line-height: 20px;
 }
 
-/*------------------------	Search box	-------------------------*/
+
+/*-------------------------
+	Search box
+-------------------------*/
+
 
 .filemanager .search {
 	position: absolute;
@@ -227,7 +272,7 @@ body {
 	background-color: transparent;
 	background-image: url(images/notfound.png);
 	width: 365px;
-	height: 167px;
+	height: 185px;
 	line-height: 11.4em;
 }
 .filemanager .nothingfound .nofiles:after {
@@ -463,9 +508,14 @@ body {
 	border-bottom-color: #30837c;
 }
 
+
+
+
 /*----------------------------
-	 Footer
+	The Demo Footer
 -----------------------------*/
+
+
 footer {
 
 	width: 770px;
@@ -477,8 +527,8 @@ footer {
 	margin-left: -420px;
 
 	background-color:#1f1f1f;
+	background-image:linear-gradient(to bottom, #1f1f1f, #101010);
 
-	
 	border-radius:2px 2px 0 0;
 	box-shadow: 0 -1px 4px rgba(0,0,0,0.4);
 	z-index:1;
