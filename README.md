@@ -51,13 +51,13 @@ Improvements
 1. Added the ability to call the script multiple times in the same page<
 2. Ignores hidden files and ```desktop.ini``` file
 3. Can go throw protected folders 
+4. Showing Folder Size
+5. Folder items number is calculated recursively
 
 Future features
 ------
-1. PDF, JPG viewer
-2. Fixing folder items number
-3. Folder size
-4. Downloading full folder
+1. Zipping and downloading Folder
+2. Recently added Files
 
 License
 ------
