@@ -32,7 +32,7 @@ First of all, get python 3 & then get pip.
 6. Tweak the path inside the ```Assets/js/script.js``` in line :
 
 Note: ```http://127.0.0.1:5000/Program Files``` means ```C:\Program Files```
-7. Finally, ```python Browser.py```
+7. Finally, ```python server.py```
 8. Open the index.html file
 
 Forcing files to download
