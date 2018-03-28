@@ -347,7 +347,7 @@ $(function () {
 
             }
 
-            // add Download Folder option
+            /* add Download Folder option
 
             $('li.folders').contextmenu(function () {
                 return false;
@@ -376,6 +376,11 @@ $(function () {
 
                 }
             });
+            */
+
+
+
+
 
 
             // Generate the breadcrumbs
@@ -435,4 +440,91 @@ $(function () {
         }
 
     });
+
+
+
+    function CopyToClipboard( val ){
+        var hiddenClipboard = $('#_hiddenClipboard_');
+        if(!hiddenClipboard.length){
+            $('body').append('<textarea style="position:absolute;top: -9999px;" id="_hiddenClipboard_"></textarea>');
+            hiddenClipboard = $('#_hiddenClipboard_');
+        }
+        hiddenClipboard.html(val);
+        hiddenClipboard.select();
+        document.execCommand('copy');
+        document.getSelection().removeAllRanges();
+    }
+
+
+    $('.data').contextMenu({
+        selector: 'li.folders',
+        callback: function(key, options) {
+            var nextDir = $(this).find('a.folders').attr('href');
+
+            switch (key){
+                case "zip":
+                    $.confirm({
+                        title: 'Confirm Folder Download!',
+                        theme: 'supervan',
+                        content: nextDir,
+                        buttons: {
+                            confirm: function () {
+
+                                console.log("Ziping "+nextDir);
+
+                            },
+                            cancel: function () {
+                            },
+                        }
+                    });
+
+
+                    break;
+
+                case "copy":
+                    if (window.location.hostname==="localhost"){
+                            CopyToClipboard("localhost/logitheque/#"+nextDir);
+                    }else{
+                        CopyToClipboard(window.location.hostname+"/#"+nextDir);
+
+                    }
+
+                    break;
+
+                case"newtab":
+                    var win = window.open("#"+nextDir, '_blank');
+
+                    if (win) {
+                        win.focus();
+                    } else {
+                        //Browser has blocked it
+                        alert('Please allow popups for this website');
+                    }
+                    break;
+
+
+                case "info":
+                    $.confirm({
+                        title: 'Folder Properties :',
+                        theme: 'supervan',
+                        content: "Name : " +
+                        "<br>Contains XX Items :" +
+                        "<br>Size :",
+                        buttons: { Ok: function(){} }
+                    });
+
+                    break;
+
+            }
+
+        },
+        items: {
+            "zip": {name: "Zip & download"},
+            "copy": {name: "Copy folder link"},
+            "newtab": {name: "Open in new tab "},
+            "sep1": "---------",
+            "info": {name: "Properties"},
+        }
+    });
+
 });
