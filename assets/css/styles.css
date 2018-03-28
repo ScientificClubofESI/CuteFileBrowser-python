@@ -43,9 +43,7 @@ p {
 	font: 14px Verdana, Arial, Helvetica, sans-serif;
 }
 li {
-	color: #99CC00;
-	margin: 15px 0px 5px;
-	padding: 0px 0px 3px;
+	color: #a0d4e4;
 	font: 11px Verdana, Arial, Helvetica, sans-serif;
 }
 
@@ -588,3 +586,5 @@ footer #tzine-actions iframe{
 @media (max-width: 1024px) {
 	#bsaHolder, footer{ display:none;}
 }
+
+
