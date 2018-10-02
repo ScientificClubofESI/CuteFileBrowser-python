@@ -1,6 +1,6 @@
 from flask import Flask,jsonify
 import os
-
+// comment
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS']=False
 
@@ -22,10 +22,7 @@ def scan(path):
                 files.append(a)
             else:
                 a = {
-                        'name': f,
-                        'type': 'file',
-                        'path': path+'/'+f,
-                        'size':os.path.getsize(path+'/'+f)
+                        'name': f,'type': 'file','path': path+'/'+f,'size':os.path.getsize(path+'/'+f)
                 }
                 files.append(a)
     except:
